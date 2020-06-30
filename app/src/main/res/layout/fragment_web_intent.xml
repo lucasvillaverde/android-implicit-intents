@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".examples.ImageIntentFragment">
+    tools:context=".examples.TextIntentFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,23 +16,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="24sp"
-            android:text="@string/img_fragment_title" />
+            android:text="@string/website_fragment_title" />
 
-        <ImageView
-            android:id="@+id/mainImg"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:src="@drawable/ic_launcher_background"
-            android:contentDescription="@string/img_fragment_title"
-            android:layout_marginTop="48dp" />
-
-        <Button
-            android:id="@+id/btnOpen"
+        <EditText
+            android:id="@+id/edtSendText"
+            android:layout_marginTop="32dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="48dp"
-            android:text="@string/btn_load_photo_text" />
-    </LinearLayout>
+            android:inputType="text"
+            android:autofillHints="@string/edit_text_url_hint"
+            android:hint="@string/edit_text_url_hint" />
 
+        <Button
+            android:id="@+id/btnSendText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/btn_browse_text" />
+
+    </LinearLayout>
 
 </FrameLayout>
