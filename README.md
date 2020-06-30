@@ -6,7 +6,7 @@
 - SMS;
 - Gallery.
 
-Added ViewPager2 and CircleIndicator to make a friendly fragment show.
+Added ViewPager2 and CircleIndicator to make a friendly fragment showing.
 
 - **App flow:**
 
