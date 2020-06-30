@@ -1,6 +1,14 @@
 <resources>
-    <string name="app_name">AndroidImplicitIntents</string>
+    <string name="app_name">Android Implicit Intents</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="edit_text_intent_hint">What do you wanna send to your friends?</string>
+    <string name="text_fragment_title">SMS</string>
+    <string name="btn_send_sms">Send SMS</string>
+    <string name="img_fragment_title">Content (image)</string>
+    <string name="btn_load_photo_text">Load Photo</string>
+    <string name="website_fragment_title">Website URL</string>
+    <string name="btn_browse_text">Browse</string>
+    <string name="edit_text_url_hint">Type a URL to browse.</string>
+    <string name="map_fragment_title">Map (California)</string>
+    <string name="btn_open_map_text">Open Map</string>
 </resources>
